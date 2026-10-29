@@ -53,3 +53,5 @@ st.line_chart(chart)
 
 st.caption(f"آخر شمعة مقفولة: {res['time']}")
 st.warning("⚠️ للتعليم فقط وليس توصية تداول. البيانات مجانية وقد تتأخر. جرّب على حساب تجريبي أولًا.")
+import warnings
+warnings.filterwarnings("ignore")
